@@ -6,7 +6,7 @@ public class Multiples {
             boolean divisibleBy5 = i % 5 == 0;
 
             if (divisibleBy3 || divisibleBy5) {
-                total_count += i;
+                total_count += 1;
             }
         }
         System.out.println(total_count);
